@@ -6,6 +6,7 @@ public class AccountPage extends BasePage {
 
 	private By SEARCH_AUT_ICON_LOCATOR = By.xpath("//*[@id='PH_user-email']");
 	private By SEARCH_MAIL_CREATION_BTN_LOCATOR = By.xpath("//*[@id='b-toolbar__left']//a[(@data-name = 'compose')]");
+// 	comment
 	protected By SEARCH_MAIL_DRAFT_MENU_LINK_LOCATOR = By.xpath("//*[contains(@class,'ico_folder_drafts')]");
 	private By SEARCH_MAIL_SENT_MENU_LINK_LOCATOR = By.xpath("//*[contains(@class,'ico_folder_send')]");
 	private By SEARCH_MAIL_INCOMING_MENU_LINK_LOCATOR = By.xpath("//*[contains(@class,'ico_folder_inbox')]");
